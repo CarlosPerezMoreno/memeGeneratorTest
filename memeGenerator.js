@@ -1,10 +1,11 @@
 // Create two constants that gets the elements in the html: the generateButton and the memeImage
+// MR CARLOS 11th December: Create two constants , and use the document.getElementById("htmlid")
 
 // Fetch a random meme using Meme API
 async function fetchMeme() {
     try {
-        /* Store the data */ = await fetch("https://meme-api.com/gimme");
-        /*Create a conditional statement for checking the data from the API */
+        /* Create a constant to store data / = await fetch("https://meme-api.com/gimme");
+        /*Create a conditional statement for checking the data from the API, like if !response.ok */
             throw new Error(`HTTP error! status: ${response.status}`);
         //
         const data = await response.json();
