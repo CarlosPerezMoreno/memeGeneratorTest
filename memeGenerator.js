@@ -21,4 +21,3 @@ async function fetchMeme() {
 }
 
 // Event listener for the generate button
-generateButton.addEventListener("click", fetchMeme);
